@@ -6,39 +6,35 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body>
-        <header class="navigation">
-            <div class="inline-block logo">
-                <img src="images/New Logo.svg" width="75">
-            </div>
-            <nav class="inline-block">
-                <ul>
-                    <a href="#about">about</a>
-                    <a href="#skills">skills</a>
-                    <a href="#work">work</a>
-                    <a href="#contact">contact</a>
-                </ul>
-            </nav>
-        </header>
-
-        </header>
-        <section class="heroImg">
-            <div class="content">
-                <img src="images/IMG_3076 1.svg"  width="300">
-                <p>I am a human-centered UX designer focused on building products from a place of empathy and research. 
+    <body> 
+        <div class="topnav" id="myTopnav">
+            <a href="#logo" class="active"><img src="/images/New Logo.svg" width="65"></a>
+            <a href="#contact">Contact</a>
+            <a href="myUXSkills.html">My Skills</a>
+            <a href="myWork.html">My Work</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="content" style="padding-left:16px">
+            <h2>Hi, I'm Wakako!</h2>
+            <p>I am a human-centered UX designer focused on building products from a place of empathy and research. 
                 I have a background in both design and engineering that help me understand how to create beautiful products 
                 and create an atmosphere where empathy is at the forefront of every design.</p>
-                <button>Download resume</button>
-            </div>
-        </section>
-        <footer>
-            <ul>
-                <li class="inline-block">about</li>
-                <li class="inline-block">skills</li>
-                <li class="inline-block">work</li>
-                <li class="inline-block">contact</li>
-            </ul>
-        </footer>
+            <img src="images/IMG_3076 1.svg" width="600">
+        </div>
+        <script>
+            function myFunction() {
+              let x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+        </script>
     </body>
 </html>
+            
