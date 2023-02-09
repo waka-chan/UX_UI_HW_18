@@ -5,45 +5,47 @@ body {
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: white;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 20%;
+    padding: 1%;
 }
 
 .topnav a {
-  float: right;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
 }
 
 .topnav a.active {
-  background-color: white;
-  float: left;
+    background-color: white;
+    float: left;
 }
 
 .topnav .icon {
-  display: none;
+    display: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
     float: right;
     display: block;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
@@ -63,6 +65,7 @@ body {
     width: 70%;
     margin: auto;
     display: block;
+    border-radius: 2%;
 }
 .content h2 {
     text-align: center;
