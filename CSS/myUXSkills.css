@@ -75,3 +75,7 @@ h1 {
     margin: 5%;
     font-size: 32pt;
 }
+.topnav a.active {
+    margin-right: auto;
+    margin-left: 20%;
+}

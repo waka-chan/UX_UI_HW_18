@@ -68,7 +68,6 @@ body {
     'firstSpot secondSpot thirdSpot fourthSpot'
     'fifthSpot sixthSpot seventhSpot eighthSpot';
     grid-gap: 10px;
-    background-color: teal;
     padding: 10px;
 }
 h1 {
@@ -97,4 +96,11 @@ h1 {
 }
 .item4 {
     grid-area: eighthSpot;
+}
+h3 {
+    text-align: center;
+}
+.topnav a.active {
+    margin-right: auto;
+    margin-left: 20%;
 }
