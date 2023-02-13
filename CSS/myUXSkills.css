@@ -69,6 +69,7 @@ body {
     margin: 1%;
     width: 33%;
     padding: 1%;
+    text-align: justify;
 }
 h1 {
     text-align: center;
@@ -79,3 +80,11 @@ h1 {
     margin-right: auto;
     margin-left: 20%;
 }
+@media only screen and (max-width: 600px) {
+    .flexContainer{
+        flex-direction: column;
+    }
+    .flexContainer div {
+        width: 100%;
+    }
+  }
