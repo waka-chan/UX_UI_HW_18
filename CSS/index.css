@@ -5,11 +5,14 @@ body {
 }
 
 .topnav {
-    overflow: hidden;
     background-color: white;
     padding: 1%;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
 }
 .menu {
     margin-left: auto; 
