@@ -66,8 +66,9 @@ body {
 }
 
 .content {
-    width: 600px;
-    margin: 0 auto;
+    width: 600px; 
+    margin: 10% auto;
+    /* margin: 0 auto;  */
 }
 .content img {
     width: 100%;
@@ -84,5 +85,73 @@ body {
 @media only screen and (max-width: 600px) {
     .content img{
         width: 100%;
+    }
+}
+.cta {
+    text-align: center;
+    padding: 1%;
+}
+
+
+/* CSS for My Work area beneath .cta */
+.workGrid {
+    display: grid;
+    grid-template-areas:
+    'firstSpot secondSpot thirdSpot fourthSpot'
+    'fifthSpot sixthSpot seventhSpot eighthSpot';
+    grid-gap: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+.image1 {
+    grid-area: firstSpot;
+}
+.item1 {
+    grid-area: secondSpot;
+}
+.image2 {
+    grid-area: thirdSpot;
+}
+.item2 {
+    grid-area: fourthSpot;
+}
+.image3 {
+    grid-area: fifthSpot;
+}
+.item3 {
+    grid-area: sixthSpot;
+}
+.image4 {
+    grid-area: seventhSpot;
+}
+.item4 {
+    grid-area: eighthSpot;
+}
+h3 {
+    text-align: center;
+}
+.topnav a.active {
+    margin-right: auto;
+    margin-left: 20%;
+}
+@media only screen and (max-width: 600px) {
+    .workGrid {
+        display: grid;
+        grid-template-areas:
+        'firstSpot'
+        'secondSpot' 
+        'thirdSpot' 
+        'fourthSpot'
+        'fifthSpot'
+        'sixthSpot' 
+        'seventhSpot'
+        'eighthSpot';
+        grid-gap: 10px;
+        padding: 10px;
     }
 }
